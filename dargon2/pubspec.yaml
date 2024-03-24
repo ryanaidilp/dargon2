@@ -8,9 +8,11 @@ environment:
   sdk: '>=2.15.0 <3.0.0'
 
 dependencies:
-  # dargon2_core: '^2.1.0'
-  dargon2_core:
-    path: ../dargon2_core
+  dargon2_core: 
+    git:
+      url: https://github.com/ryanaidilp/dargon2.git
+      ref: main
+      path: dargon2_core
 
 dev_dependencies:
   pedantic: ^1.9.0
